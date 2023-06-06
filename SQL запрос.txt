@@ -1,0 +1,3 @@
+SELECT products.name, categories.name
+FROM products
+LEFT INNER JOIN categories ON products.categori_id = categories.id
